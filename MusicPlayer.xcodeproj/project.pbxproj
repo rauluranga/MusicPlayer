@@ -11,14 +11,14 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
-		2899E5220DE3E06400AC0155 /* MusicPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* MusicPlayerViewController.xib */; };
-		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		28D7ACF80DDB3853001CB0EB /* MusicPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* MusicPlayerViewController.m */; };
-		C4DC012112E108D0000A8F41 /* MusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DC012012E108D0000A8F41 /* MusicPlayer.m */; };
-		C4DC012512E108F1000A8F41 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DC012412E108F1000A8F41 /* AVFoundation.framework */; };
-		C4DC015512E11140000A8F41 /* themeIntro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4DC015412E11140000A8F41 /* themeIntro.mp3 */; };
-		C4DC018012E11452000A8F41 /* dove-loop.aif in Resources */ = {isa = PBXBuildFile; fileRef = C4DC017F12E11452000A8F41 /* dove-loop.aif */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		C475BFF312E50C650080C0B0 /* MusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C475BFF112E50C650080C0B0 /* MusicPlayer.m */; };
+		C475BFF712E50C810080C0B0 /* dove-loop.aif in Resources */ = {isa = PBXBuildFile; fileRef = C475BFF512E50C810080C0B0 /* dove-loop.aif */; };
+		C475BFF812E50C810080C0B0 /* themeIntro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C475BFF612E50C810080C0B0 /* themeIntro.mp3 */; };
+		C475C00312E50CF00080C0B0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C475C00212E50CF00080C0B0 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,20 +27,20 @@
 		1D3623250D0F684500981E51 /* MusicPlayerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2899E5210DE3E06400AC0155 /* MusicPlayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicPlayerViewController.xib; sourceTree = "<group>"; };
-		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		28D7ACF60DDB3853001CB0EB /* MusicPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayerViewController.h; sourceTree = "<group>"; };
-		28D7ACF70DDB3853001CB0EB /* MusicPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerViewController.m; sourceTree = "<group>"; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* MusicPlayer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayer_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* MusicPlayer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayer_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* MusicPlayer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MusicPlayer-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		C4DC011F12E108D0000A8F41 /* MusicPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayer.h; sourceTree = "<group>"; };
-		C4DC012012E108D0000A8F41 /* MusicPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayer.m; sourceTree = "<group>"; };
-		C4DC012412E108F1000A8F41 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		C4DC015412E11140000A8F41 /* themeIntro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = themeIntro.mp3; sourceTree = "<group>"; };
-		C4DC015612E1115D000A8F41 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
-		C4DC017F12E11452000A8F41 /* dove-loop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dove-loop.aif"; sourceTree = "<group>"; };
+		C475BFF012E50C650080C0B0 /* MusicPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayer.h; sourceTree = "<group>"; };
+		C475BFF112E50C650080C0B0 /* MusicPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayer.m; sourceTree = "<group>"; };
+		C475BFF212E50C650080C0B0 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		C475BFF512E50C810080C0B0 /* dove-loop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dove-loop.aif"; sourceTree = "<group>"; };
+		C475BFF612E50C810080C0B0 /* themeIntro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = themeIntro.mp3; sourceTree = "<group>"; };
+		C475C00212E50CF00080C0B0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,8 +50,8 @@
 			files = (
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
-				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
-				C4DC012512E108F1000A8F41 /* AVFoundation.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				C475C00312E50CF00080C0B0 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,13 +61,13 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C4DC015612E1115D000A8F41 /* SynthesizeSingleton.h */,
+				C475BFF012E50C650080C0B0 /* MusicPlayer.h */,
+				C475BFF112E50C650080C0B0 /* MusicPlayer.m */,
+				C475BFF212E50C650080C0B0 /* SynthesizeSingleton.h */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
 				1D3623240D0F684500981E51 /* MusicPlayerAppDelegate.h */,
 				1D3623250D0F684500981E51 /* MusicPlayerAppDelegate.m */,
-				28D7ACF60DDB3853001CB0EB /* MusicPlayerViewController.h */,
-				28D7ACF70DDB3853001CB0EB /* MusicPlayerViewController.m */,
-				C4DC011F12E108D0000A8F41 /* MusicPlayer.h */,
-				C4DC012012E108D0000A8F41 /* MusicPlayer.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -83,7 +83,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				C4DC015312E1111B000A8F41 /* Sounds */,
+				C475BFF412E50C720080C0B0 /* Sounds */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -96,7 +96,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32CA4F630368D1EE00C91783 /* MusicPlayer_Prefix.pch */,
+				28A0AAE50D9B0CCF005BE974 /* MusicPlayer_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
@@ -105,8 +105,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2899E5210DE3E06400AC0155 /* MusicPlayerViewController.xib */,
-				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				28F335F01007B36200424DE2 /* RootViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* MusicPlayer-Info.plist */,
 			);
 			name = Resources;
@@ -115,19 +115,19 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C475C00212E50CF00080C0B0 /* AVFoundation.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
-				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
-				C4DC012412E108F1000A8F41 /* AVFoundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C4DC015312E1111B000A8F41 /* Sounds */ = {
+		C475BFF412E50C720080C0B0 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				C4DC017F12E11452000A8F41 /* dove-loop.aif */,
-				C4DC015412E11140000A8F41 /* themeIntro.mp3 */,
+				C475BFF512E50C810080C0B0 /* dove-loop.aif */,
+				C475BFF612E50C810080C0B0 /* themeIntro.mp3 */,
 			);
 			name = Sounds;
 			sourceTree = "<group>";
@@ -166,6 +166,7 @@
 				Japanese,
 				French,
 				German,
+				en,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
@@ -181,10 +182,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
-				2899E5220DE3E06400AC0155 /* MusicPlayerViewController.xib in Resources */,
-				C4DC015512E11140000A8F41 /* themeIntro.mp3 in Resources */,
-				C4DC018012E11452000A8F41 /* dove-loop.aif in Resources */,
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
+				C475BFF712E50C810080C0B0 /* dove-loop.aif in Resources */,
+				C475BFF812E50C810080C0B0 /* themeIntro.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +198,8 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* MusicPlayerAppDelegate.m in Sources */,
-				28D7ACF80DDB3853001CB0EB /* MusicPlayerViewController.m in Sources */,
-				C4DC012112E108D0000A8F41 /* MusicPlayer.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				C475BFF312E50C650080C0B0 /* MusicPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

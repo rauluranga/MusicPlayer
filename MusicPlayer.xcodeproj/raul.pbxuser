@@ -1,49 +1,36 @@
 // !$*UTF8*$!
 {
-	1D3623240D0F684500981E51 /* MusicPlayerAppDelegate.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {933, 391}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 491}";
-		};
-	};
-	1D3623250D0F684500981E51 /* MusicPlayerAppDelegate.m */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 1040}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{357, 1865}";
-		};
-	};
 	1D6058900D05DD3D006BFB54 /* MusicPlayer */ = {
 		activeExec = 0;
 		executables = (
-			C4DC011312E108B9000A8F41 /* MusicPlayer */,
+			C4D0955812E50B4B005FC28B /* MusicPlayer */,
 		);
 	};
-	28D7ACF60DDB3853001CB0EB /* MusicPlayerViewController.h */ = {
+	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {933, 553}}";
-			sepNavSelRange = "{262, 17}";
-			sepNavVisRange = "{0, 290}";
+			sepNavIntBoundsRect = "{{0, 0}, {933, 441}}";
+			sepNavSelRange = "{280, 0}";
+			sepNavVisRange = "{0, 280}";
 		};
 	};
-	28D7ACF70DDB3853001CB0EB /* MusicPlayerViewController.m */ = {
+	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {933, 949}}";
-			sepNavSelRange = "{1049, 0}";
-			sepNavVisRange = "{3, 1120}";
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{3784, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{3835, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{3885, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 4581}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {933, 2405}}";
+			sepNavSelRange = "{192, 0}";
+			sepNavVisRange = "{0, 868}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
-		activeExecutable = C4DC011312E108B9000A8F41 /* MusicPlayer */;
+		activeExecutable = C4D0955812E50B4B005FC28B /* MusicPlayer */;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* MusicPlayer */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* MusicPlayer */,
 		);
-		codeSenseManager = C4DC012312E108D0000A8F41 /* Code sense */;
+		codeSenseManager = C4D0956412E50B57005FC28B /* Code sense */;
 		executables = (
-			C4DC011312E108B9000A8F41 /* MusicPlayer */,
+			C4D0955812E50B4B005FC28B /* MusicPlayer */,
 		);
 		perUserDictionary = {
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
@@ -68,158 +55,43 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
-				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
-				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
-				PBXFileTableDataSourceColumnWidthsKey = (
-					20,
-					500,
-					60,
-					20,
-					48.16259765625,
-					43,
-					43,
-				);
-				PBXFileTableDataSourceColumnsKey = (
-					PBXFileDataSource_FiletypeID,
-					PBXFileDataSource_Filename_ColumnID,
-					PBXTargetDataSource_PrimaryAttribute,
-					PBXFileDataSource_Built_ColumnID,
-					PBXFileDataSource_ObjectSize_ColumnID,
-					PBXFileDataSource_Errors_ColumnID,
-					PBXFileDataSource_Warnings_ColumnID,
-				);
-			};
-			PBXPerProjectTemplateStateSaveDate = 316744399;
-			PBXWorkspaceStateSaveDate = 316744399;
+			PBXPerProjectTemplateStateSaveDate = 317000784;
+			PBXWorkspaceStateSaveDate = 317000784;
 		};
 		perUserProjectItems = {
-			C44CE3BB12E122EB00A44350 /* PBXTextBookmark */ = C44CE3BB12E122EB00A44350 /* PBXTextBookmark */;
-			C44CE3C912E1250B00A44350 /* PBXTextBookmark */ = C44CE3C912E1250B00A44350 /* PBXTextBookmark */;
-			C44CE3D412E1288B00A44350 /* PBXTextBookmark */ = C44CE3D412E1288B00A44350 /* PBXTextBookmark */;
-			C44CE3D512E1288B00A44350 /* PBXTextBookmark */ = C44CE3D512E1288B00A44350 /* PBXTextBookmark */;
-			C44CE3D812E12C1200A44350 /* PBXTextBookmark */ = C44CE3D812E12C1200A44350 /* PBXTextBookmark */;
-			C44CE3D912E12C1200A44350 /* PBXTextBookmark */ = C44CE3D912E12C1200A44350 /* PBXTextBookmark */;
-			C44CE3DA12E12C1200A44350 /* PBXTextBookmark */ = C44CE3DA12E12C1200A44350 /* PBXTextBookmark */;
-			C44CE3DB12E12C1200A44350 /* PBXTextBookmark */ = C44CE3DB12E12C1200A44350 /* PBXTextBookmark */;
-			C44CE3DC12E12C1200A44350 /* PBXTextBookmark */ = C44CE3DC12E12C1200A44350 /* PBXTextBookmark */;
-			C4BB8ED212E120A100148CF8 = C4BB8ED212E120A100148CF8 /* PBXTextBookmark */;
-			C4DC014A12E10FA7000A8F41 = C4DC014A12E10FA7000A8F41 /* PBXTextBookmark */;
-			C4DC014B12E10FA7000A8F41 = C4DC014B12E10FA7000A8F41 /* PBXTextBookmark */;
-			C4DC016312E112B6000A8F41 = C4DC016312E112B6000A8F41 /* PBXTextBookmark */;
-			C4DC016412E112B6000A8F41 = C4DC016412E112B6000A8F41 /* PBXTextBookmark */;
-			C4DC018E12E11808000A8F41 = C4DC018E12E11808000A8F41 /* PlistBookmark */;
-			C4DC01A112E11AE6000A8F41 = C4DC01A112E11AE6000A8F41 /* PBXTextBookmark */;
-			C4DC01B812E11C25000A8F41 = C4DC01B812E11C25000A8F41 /* PBXTextBookmark */;
-			C4DC01B912E11C25000A8F41 = C4DC01B912E11C25000A8F41 /* PBXTextBookmark */;
-			C4DC01BA12E11C25000A8F41 = C4DC01BA12E11C25000A8F41 /* PBXTextBookmark */;
-			C4DC01D012E12097000A8F41 = C4DC01D012E12097000A8F41 /* PBXTextBookmark */;
+			C475C03212E50D0D0080C0B0 /* PBXTextBookmark */ = C475C03212E50D0D0080C0B0 /* PBXTextBookmark */;
+			C475C03312E50D0D0080C0B0 /* PBXBookmark */ = C475C03312E50D0D0080C0B0 /* PBXBookmark */;
+			C475C03412E50D0D0080C0B0 /* PBXTextBookmark */ = C475C03412E50D0D0080C0B0 /* PBXTextBookmark */;
 		};
-		sourceControlManager = C4DC012212E108D0000A8F41 /* Source Control */;
+		sourceControlManager = C4D0956312E50B57005FC28B /* Source Control */;
 		userBuildSettings = {
 		};
 	};
-	C44CE3BB12E122EB00A44350 /* PBXTextBookmark */ = {
+	C475C03212E50D0D0080C0B0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = C4DC012012E108D0000A8F41 /* MusicPlayer.m */;
-		name = "MusicPlayer.m: 63";
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 10";
 		rLen = 0;
-		rLoc = 1271;
+		rLoc = 192;
 		rType = 0;
-		vrLen = 1011;
-		vrLoc = 926;
-	};
-	C44CE3C912E1250B00A44350 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = C4DC012012E108D0000A8F41 /* MusicPlayer.m */;
-		name = "MusicPlayer.m: 63";
-		rLen = 0;
-		rLoc = 1271;
-		rType = 0;
-		vrLen = 1011;
-		vrLoc = 926;
-	};
-	C44CE3D412E1288B00A44350 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = C4DC012012E108D0000A8F41 /* MusicPlayer.m */;
-		name = "MusicPlayer.m: 62";
-		rLen = 0;
-		rLoc = 1252;
-		rType = 0;
-		vrLen = 1050;
-		vrLoc = 819;
-	};
-	C44CE3D512E1288B00A44350 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = C4DC012012E108D0000A8F41 /* MusicPlayer.m */;
-		name = "MusicPlayer.m: 59";
-		rLen = 0;
-		rLoc = 1163;
-		rType = 0;
-		vrLen = 1034;
-		vrLoc = 819;
-	};
-	C44CE3D812E12C1200A44350 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* MusicPlayerViewController.h */;
-		name = "MusicPlayerViewController.h: 13";
-		rLen = 17;
-		rLoc = 262;
-		rType = 0;
-		vrLen = 290;
+		vrLen = 868;
 		vrLoc = 0;
 	};
-	C44CE3D912E12C1200A44350 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* MusicPlayerAppDelegate.m */;
-		name = "MusicPlayerAppDelegate.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1865;
-		vrLoc = 357;
+	C475C03312E50D0D0080C0B0 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
 	};
-	C44CE3DA12E12C1200A44350 /* PBXTextBookmark */ = {
+	C475C03412E50D0D0080C0B0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* MusicPlayerViewController.m */;
-		name = "MusicPlayerViewController.m: 40";
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 17";
 		rLen = 0;
-		rLoc = 1049;
+		rLoc = 280;
 		rType = 0;
-		vrLen = 1120;
-		vrLoc = 3;
-	};
-	C44CE3DB12E12C1200A44350 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = C4DC012012E108D0000A8F41 /* MusicPlayer.m */;
-		name = "MusicPlayer.m: 59";
-		rLen = 0;
-		rLoc = 1163;
-		rType = 0;
-		vrLen = 1036;
-		vrLoc = 819;
-	};
-	C44CE3DC12E12C1200A44350 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = C4DC012012E108D0000A8F41 /* MusicPlayer.m */;
-		name = "MusicPlayer.m: 65";
-		rLen = 0;
-		rLoc = 1288;
-		rType = 0;
-		vrLen = 815;
+		vrLen = 280;
 		vrLoc = 0;
 	};
-	C4BB8ED212E120A100148CF8 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = C4DC012012E108D0000A8F41 /* MusicPlayer.m */;
-		name = "MusicPlayer.m: 63";
-		rLen = 0;
-		rLoc = 1308;
-		rType = 0;
-		vrLen = 1011;
-		vrLoc = 926;
-	};
-	C4DC011312E108B9000A8F41 /* MusicPlayer */ = {
+	C4D0955812E50B4B005FC28B /* MusicPlayer */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
 		);
@@ -247,23 +119,7 @@
 		sourceDirectories = (
 		);
 	};
-	C4DC011F12E108D0000A8F41 /* MusicPlayer.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {933, 563}}";
-			sepNavSelRange = "{313, 12}";
-			sepNavVisRange = "{0, 538}";
-			sepNavWindowFrame = "{{38, 378}, {691, 624}}";
-		};
-	};
-	C4DC012012E108D0000A8F41 /* MusicPlayer.m */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {933, 1248}}";
-			sepNavSelRange = "{1288, 0}";
-			sepNavVisRange = "{0, 815}";
-			sepNavWindowFrame = "{{225, 318}, {953, 662}}";
-		};
-	};
-	C4DC012212E108D0000A8F41 /* Source Control */ = {
+	C4D0956312E50B57005FC28B /* Source Control */ = {
 		isa = PBXSourceControlManager;
 		fallbackIsa = XCSourceControlManager;
 		isSCMEnabled = 0;
@@ -273,123 +129,8 @@
 			};
 		};
 	};
-	C4DC012312E108D0000A8F41 /* Code sense */ = {
+	C4D0956412E50B57005FC28B /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
-	};
-	C4DC014A12E10FA7000A8F41 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* MusicPlayerAppDelegate.h */;
-		name = "MusicPlayerAppDelegate.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 491;
-		vrLoc = 0;
-	};
-	C4DC014B12E10FA7000A8F41 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* MusicPlayerAppDelegate.m */;
-		name = "MusicPlayerAppDelegate.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1303;
-		vrLoc = 654;
-	};
-	C4DC015612E1115D000A8F41 /* SynthesizeSingleton.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {933, 754}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 804}";
-		};
-	};
-	C4DC016312E112B6000A8F41 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = C4DC015612E1115D000A8F41 /* SynthesizeSingleton.h */;
-		name = "SynthesizeSingleton.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 804;
-		vrLoc = 0;
-	};
-	C4DC016412E112B6000A8F41 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = C4DC016512E112B6000A8F41 /* AVAudioPlayer.h */;
-		name = "AVAudioPlayer.h: 76";
-		rLen = 35;
-		rLoc = 3097;
-		rType = 0;
-		vrLen = 1359;
-		vrLoc = 2441;
-	};
-	C4DC016512E112B6000A8F41 /* AVAudioPlayer.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = AVAudioPlayer.h;
-		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVAudioPlayer.h;
-		sourceTree = "<absolute>";
-	};
-	C4DC018E12E11808000A8F41 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* MusicPlayer-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/raul/iPhoneApps/examples/MusicPlayer/MusicPlayer-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
-	C4DC01A112E11AE6000A8F41 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* MusicPlayerViewController.h */;
-		name = "MusicPlayerViewController.h: 13";
-		rLen = 17;
-		rLoc = 262;
-		rType = 0;
-		vrLen = 290;
-		vrLoc = 0;
-	};
-	C4DC01B812E11C25000A8F41 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* MusicPlayerViewController.m */;
-		name = "MusicPlayerViewController.m: 33";
-		rLen = 0;
-		rLoc = 702;
-		rType = 0;
-		vrLen = 1122;
-		vrLoc = 0;
-	};
-	C4DC01B912E11C25000A8F41 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = C4DC011F12E108D0000A8F41 /* MusicPlayer.h */;
-		name = "MusicPlayer.h: 15";
-		rLen = 12;
-		rLoc = 313;
-		rType = 0;
-		vrLen = 538;
-		vrLoc = 0;
-	};
-	C4DC01BA12E11C25000A8F41 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = C4DC012012E108D0000A8F41 /* MusicPlayer.m */;
-		name = "MusicPlayer.m: 66";
-		rLen = 0;
-		rLoc = 1313;
-		rType = 0;
-		vrLen = 1146;
-		vrLoc = 403;
-	};
-	C4DC01D012E12097000A8F41 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = C4DC012012E108D0000A8F41 /* MusicPlayer.m */;
-		name = "MusicPlayer.m: 63";
-		rLen = 0;
-		rLoc = 1308;
-		rType = 0;
-		vrLen = 1052;
-		vrLoc = 926;
 	};
 }

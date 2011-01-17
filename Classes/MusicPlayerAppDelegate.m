@@ -2,17 +2,18 @@
 //  MusicPlayerAppDelegate.m
 //  MusicPlayer
 //
-//  Created by Raúl Uranga on 1/14/11.
+//  Created by Raúl Uranga on 1/17/11.
 //  Copyright 2011 GrupoW. All rights reserved.
 //
 
 #import "MusicPlayerAppDelegate.h"
-#import "MusicPlayerViewController.h"
+#import "RootViewController.h"
+
 
 @implementation MusicPlayerAppDelegate
 
 @synthesize window;
-@synthesize viewController;
+@synthesize navigationController;
 
 
 #pragma mark -
@@ -21,9 +22,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
-
-    // Add the view controller's view to the window and display.
-    [window addSubview:viewController.view];
+    
+    // Add the navigation controller's view to the window and display.
+    [window addSubview:navigationController.view];
     [window makeKeyAndVisible];
 
     return YES;
@@ -79,10 +80,11 @@
 
 
 - (void)dealloc {
-    [viewController release];
-    [window release];
-    [super dealloc];
+	[navigationController release];
+	[window release];
+	[super dealloc];
 }
 
 
 @end
+

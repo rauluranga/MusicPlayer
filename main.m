@@ -2,7 +2,7 @@
 //  main.m
 //  MusicPlayer
 //
-//  Created by Raúl Uranga on 1/14/11.
+//  Created by Raúl Uranga on 1/17/11.
 //  Copyright 2011 GrupoW. All rights reserved.
 //
 
