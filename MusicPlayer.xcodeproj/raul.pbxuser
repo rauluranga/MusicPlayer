@@ -18,7 +18,7 @@
 			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{4994, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{5045, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{5095, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 6154}\";\n    s = 0;\n}";
 			sepNavIntBoundsRect = "{{0, 0}, {1195, 3003}}";
 			sepNavSelRange = "{655, 0}";
-			sepNavVisRange = "{1046, 1143}";
+			sepNavVisRange = "{1046, 1128}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -164,6 +164,9 @@
 			C4C9FB2812F27970003A71DD /* PBXTextBookmark */ = C4C9FB2812F27970003A71DD /* PBXTextBookmark */;
 			C4C9FB2912F27970003A71DD /* PBXTextBookmark */ = C4C9FB2912F27970003A71DD /* PBXTextBookmark */;
 			C4C9FB2A12F27AB1003A71DD /* PBXTextBookmark */ = C4C9FB2A12F27AB1003A71DD /* PBXTextBookmark */;
+			C4C9FB2B12F27C10003A71DD /* PBXTextBookmark */ = C4C9FB2B12F27C10003A71DD /* PBXTextBookmark */;
+			C4C9FB2C12F27C10003A71DD /* PBXTextBookmark */ = C4C9FB2C12F27C10003A71DD /* PBXTextBookmark */;
+			C4C9FB2F12F27C19003A71DD /* PBXTextBookmark */ = C4C9FB2F12F27C19003A71DD /* PBXTextBookmark */;
 		};
 		sourceControlManager = C4C9FA0312F2657D003A71DD /* Source Control */;
 		userBuildSettings = {
@@ -1279,6 +1282,36 @@
 		rLoc = 655;
 		rType = 0;
 		vrLen = 1143;
+		vrLoc = 1046;
+	};
+	C4C9FB2B12F27C10003A71DD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 30";
+		rLen = 0;
+		rLoc = 655;
+		rType = 0;
+		vrLen = 1143;
+		vrLoc = 1046;
+	};
+	C4C9FB2C12F27C10003A71DD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 30";
+		rLen = 0;
+		rLoc = 655;
+		rType = 0;
+		vrLen = 315;
+		vrLoc = 1874;
+	};
+	C4C9FB2F12F27C19003A71DD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 30";
+		rLen = 0;
+		rLoc = 655;
+		rType = 0;
+		vrLen = 1128;
 		vrLoc = 1046;
 	};
 }
