@@ -275,11 +275,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>27</integer>
+									<integer>22</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {302, 760}}</string>
+							<string>{{0, 4}, {302, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -326,12 +328,14 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C4C9FAD012F27108003A71DD</string>
+										<string>C4C9FB2A12F27AB1003A71DD</string>
 										<key>history</key>
 										<array>
-											<string>C4C9FA3512F266E5003A71DD</string>
-											<string>C4C9FA8112F269A1003A71DD</string>
-											<string>C4C9FACD12F270FC003A71DD</string>
+											<string>C4C9FB2412F27970003A71DD</string>
+											<string>C4C9FB2512F27970003A71DD</string>
+											<string>C4C9FB2612F27970003A71DD</string>
+											<string>C4C9FB2712F27970003A71DD</string>
+											<string>C4C9FB2812F27970003A71DD</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -345,18 +349,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1116, 592}}</string>
+								<string>{{0, 0}, {1116, 633}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1440 819 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>592pt</string>
+							<string>633pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>181pt</string>
+							<string>140pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -370,9 +374,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1116, 154}}</string>
-										<key>RubberWindowFrame</key>
-										<string>0 59 1440 819 0 0 1440 878 </string>
+										<string>{{10, 27}, {1116, 113}}</string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -426,7 +428,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {738, 147}}</string>
+										<string>{{10, 27}, {1116, 113}}</string>
+										<key>RubberWindowFrame</key>
+										<string>0 59 1440 819 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>

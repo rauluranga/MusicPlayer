@@ -20,11 +20,28 @@
 		C4C9FA1312F26590003A71DD /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C9FA0B12F26590003A71DD /* DDXMLElementAdditions.m */; };
 		C4C9FA1412F26590003A71DD /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C9FA0D12F26590003A71DD /* DDXMLNode.m */; };
 		C4C9FA1512F26590003A71DD /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C9FA1012F26590003A71DD /* NSStringAdditions.m */; };
-		C4C9FA2112F2660B003A71DD /* dove-loop.aif in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FA1F12F2660A003A71DD /* dove-loop.aif */; };
-		C4C9FA2212F2660B003A71DD /* themeIntro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FA2012F2660B003A71DD /* themeIntro.mp3 */; };
 		C4C9FA2612F26637003A71DD /* MusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C9FA2412F26637003A71DD /* MusicPlayer.m */; };
 		C4C9FA2A12F26688003A71DD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C9FA2912F26688003A71DD /* AVFoundation.framework */; };
 		C4C9FA3012F266AE003A71DD /* playlist.xml in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FA2F12F266AE003A71DD /* playlist.xml */; };
+		C4C9FAE912F2745A003A71DD /* 01 Born Unto Trouble.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FAD612F27453003A71DD /* 01 Born Unto Trouble.mp3 */; };
+		C4C9FAEA12F2745A003A71DD /* 02 The Shootist.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FAD712F27454003A71DD /* 02 The Shootist.mp3 */; };
+		C4C9FAEB12F2745A003A71DD /* 03 Dead End Alley.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FAD812F27454003A71DD /* 03 Dead End Alley.mp3 */; };
+		C4C9FAEC12F2745A003A71DD /* 04 Horseplay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FAD912F27454003A71DD /* 04 Horseplay.mp3 */; };
+		C4C9FAED12F2745A003A71DD /* 05 Luz Y Sombra.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FADA12F27455003A71DD /* 05 Luz Y Sombra.mp3 */; };
+		C4C9FAEE12F2745A003A71DD /* 06 El Club De Los Cuerpos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FADB12F27455003A71DD /* 06 El Club De Los Cuerpos.mp3 */; };
+		C4C9FAEF12F2745A003A71DD /* 07 Estancia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FADC12F27456003A71DD /* 07 Estancia.mp3 */; };
+		C4C9FAF012F2745A003A71DD /* 08 (Theme From) Red Dead Redemption.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FADD12F27456003A71DD /* 08 (Theme From) Red Dead Redemption.mp3 */; };
+		C4C9FAF112F2745A003A71DD /* 09 Triggernometry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FADE12F27457003A71DD /* 09 Triggernometry.mp3 */; };
+		C4C9FAF212F2745A003A71DD /* 10 Gunplay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FADF12F27457003A71DD /* 10 Gunplay.mp3 */; };
+		C4C9FAF312F2745A003A71DD /* 11 Redemption In Dub.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FAE012F27457003A71DD /* 11 Redemption In Dub.mp3 */; };
+		C4C9FAF412F2745A003A71DD /* 12 Muertos Rojos (aka The Gunslinger.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FAE112F27458003A71DD /* 12 Muertos Rojos (aka The Gunslinger.mp3 */; };
+		C4C9FAF512F2745A003A71DD /* 13 The Outlaw's Return.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FAE212F27458003A71DD /* 13 The Outlaw's Return.mp3 */; };
+		C4C9FAF612F2745A003A71DD /* 14 Exodus In America.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FAE312F27458003A71DD /* 14 Exodus In America.mp3 */; };
+		C4C9FAF712F2745A003A71DD /* 15 Already Dead.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FAE412F27459003A71DD /* 15 Already Dead.mp3 */; };
+		C4C9FAF812F2745A003A71DD /* 16 Far Away.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FAE512F27459003A71DD /* 16 Far Away.mp3 */; };
+		C4C9FAF912F2745A003A71DD /* 17 Compass (Red Dead on Arrival Vers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FAE612F27459003A71DD /* 17 Compass (Red Dead on Arrival Vers.mp3 */; };
+		C4C9FAFA12F2745A003A71DD /* 18 Deadman's Gun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FAE712F2745A003A71DD /* 18 Deadman's Gun.mp3 */; };
+		C4C9FAFB12F2745A003A71DD /* 19 Bury Me Not On The Lone Prairie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FAE812F2745A003A71DD /* 19 Bury Me Not On The Lone Prairie.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,13 +70,30 @@
 		C4C9FA0E12F26590003A71DD /* DDXMLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLPrivate.h; sourceTree = "<group>"; };
 		C4C9FA0F12F26590003A71DD /* NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringAdditions.h; sourceTree = "<group>"; };
 		C4C9FA1012F26590003A71DD /* NSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringAdditions.m; sourceTree = "<group>"; };
-		C4C9FA1F12F2660A003A71DD /* dove-loop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dove-loop.aif"; sourceTree = "<group>"; };
-		C4C9FA2012F2660B003A71DD /* themeIntro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = themeIntro.mp3; sourceTree = "<group>"; };
 		C4C9FA2312F26637003A71DD /* MusicPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayer.h; sourceTree = "<group>"; };
 		C4C9FA2412F26637003A71DD /* MusicPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayer.m; sourceTree = "<group>"; };
 		C4C9FA2512F26637003A71DD /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
 		C4C9FA2912F26688003A71DD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C4C9FA2F12F266AE003A71DD /* playlist.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = playlist.xml; sourceTree = "<group>"; };
+		C4C9FAD612F27453003A71DD /* 01 Born Unto Trouble.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 Born Unto Trouble.mp3"; sourceTree = "<group>"; };
+		C4C9FAD712F27454003A71DD /* 02 The Shootist.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02 The Shootist.mp3"; sourceTree = "<group>"; };
+		C4C9FAD812F27454003A71DD /* 03 Dead End Alley.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03 Dead End Alley.mp3"; sourceTree = "<group>"; };
+		C4C9FAD912F27454003A71DD /* 04 Horseplay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04 Horseplay.mp3"; sourceTree = "<group>"; };
+		C4C9FADA12F27455003A71DD /* 05 Luz Y Sombra.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "05 Luz Y Sombra.mp3"; sourceTree = "<group>"; };
+		C4C9FADB12F27455003A71DD /* 06 El Club De Los Cuerpos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "06 El Club De Los Cuerpos.mp3"; sourceTree = "<group>"; };
+		C4C9FADC12F27456003A71DD /* 07 Estancia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "07 Estancia.mp3"; sourceTree = "<group>"; };
+		C4C9FADD12F27456003A71DD /* 08 (Theme From) Red Dead Redemption.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "08 (Theme From) Red Dead Redemption.mp3"; sourceTree = "<group>"; };
+		C4C9FADE12F27457003A71DD /* 09 Triggernometry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "09 Triggernometry.mp3"; sourceTree = "<group>"; };
+		C4C9FADF12F27457003A71DD /* 10 Gunplay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10 Gunplay.mp3"; sourceTree = "<group>"; };
+		C4C9FAE012F27457003A71DD /* 11 Redemption In Dub.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "11 Redemption In Dub.mp3"; sourceTree = "<group>"; };
+		C4C9FAE112F27458003A71DD /* 12 Muertos Rojos (aka The Gunslinger.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "12 Muertos Rojos (aka The Gunslinger.mp3"; sourceTree = "<group>"; };
+		C4C9FAE212F27458003A71DD /* 13 The Outlaw's Return.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "13 The Outlaw's Return.mp3"; sourceTree = "<group>"; };
+		C4C9FAE312F27458003A71DD /* 14 Exodus In America.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "14 Exodus In America.mp3"; sourceTree = "<group>"; };
+		C4C9FAE412F27459003A71DD /* 15 Already Dead.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "15 Already Dead.mp3"; sourceTree = "<group>"; };
+		C4C9FAE512F27459003A71DD /* 16 Far Away.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "16 Far Away.mp3"; sourceTree = "<group>"; };
+		C4C9FAE612F27459003A71DD /* 17 Compass (Red Dead on Arrival Vers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "17 Compass (Red Dead on Arrival Vers.mp3"; sourceTree = "<group>"; };
+		C4C9FAE712F2745A003A71DD /* 18 Deadman's Gun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "18 Deadman's Gun.mp3"; sourceTree = "<group>"; };
+		C4C9FAE812F2745A003A71DD /* 19 Bury Me Not On The Lone Prairie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "19 Bury Me Not On The Lone Prairie.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,8 +200,25 @@
 		C4C9FA1E12F265DD003A71DD /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				C4C9FA1F12F2660A003A71DD /* dove-loop.aif */,
-				C4C9FA2012F2660B003A71DD /* themeIntro.mp3 */,
+				C4C9FAD612F27453003A71DD /* 01 Born Unto Trouble.mp3 */,
+				C4C9FAD712F27454003A71DD /* 02 The Shootist.mp3 */,
+				C4C9FAD812F27454003A71DD /* 03 Dead End Alley.mp3 */,
+				C4C9FAD912F27454003A71DD /* 04 Horseplay.mp3 */,
+				C4C9FADA12F27455003A71DD /* 05 Luz Y Sombra.mp3 */,
+				C4C9FADB12F27455003A71DD /* 06 El Club De Los Cuerpos.mp3 */,
+				C4C9FADC12F27456003A71DD /* 07 Estancia.mp3 */,
+				C4C9FADD12F27456003A71DD /* 08 (Theme From) Red Dead Redemption.mp3 */,
+				C4C9FADE12F27457003A71DD /* 09 Triggernometry.mp3 */,
+				C4C9FADF12F27457003A71DD /* 10 Gunplay.mp3 */,
+				C4C9FAE012F27457003A71DD /* 11 Redemption In Dub.mp3 */,
+				C4C9FAE112F27458003A71DD /* 12 Muertos Rojos (aka The Gunslinger.mp3 */,
+				C4C9FAE212F27458003A71DD /* 13 The Outlaw's Return.mp3 */,
+				C4C9FAE312F27458003A71DD /* 14 Exodus In America.mp3 */,
+				C4C9FAE412F27459003A71DD /* 15 Already Dead.mp3 */,
+				C4C9FAE512F27459003A71DD /* 16 Far Away.mp3 */,
+				C4C9FAE612F27459003A71DD /* 17 Compass (Red Dead on Arrival Vers.mp3 */,
+				C4C9FAE712F2745A003A71DD /* 18 Deadman's Gun.mp3 */,
+				C4C9FAE812F2745A003A71DD /* 19 Bury Me Not On The Lone Prairie.mp3 */,
 			);
 			name = Sounds;
 			sourceTree = "<group>";
@@ -224,9 +275,26 @@
 			files = (
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
-				C4C9FA2112F2660B003A71DD /* dove-loop.aif in Resources */,
-				C4C9FA2212F2660B003A71DD /* themeIntro.mp3 in Resources */,
 				C4C9FA3012F266AE003A71DD /* playlist.xml in Resources */,
+				C4C9FAE912F2745A003A71DD /* 01 Born Unto Trouble.mp3 in Resources */,
+				C4C9FAEA12F2745A003A71DD /* 02 The Shootist.mp3 in Resources */,
+				C4C9FAEB12F2745A003A71DD /* 03 Dead End Alley.mp3 in Resources */,
+				C4C9FAEC12F2745A003A71DD /* 04 Horseplay.mp3 in Resources */,
+				C4C9FAED12F2745A003A71DD /* 05 Luz Y Sombra.mp3 in Resources */,
+				C4C9FAEE12F2745A003A71DD /* 06 El Club De Los Cuerpos.mp3 in Resources */,
+				C4C9FAEF12F2745A003A71DD /* 07 Estancia.mp3 in Resources */,
+				C4C9FAF012F2745A003A71DD /* 08 (Theme From) Red Dead Redemption.mp3 in Resources */,
+				C4C9FAF112F2745A003A71DD /* 09 Triggernometry.mp3 in Resources */,
+				C4C9FAF212F2745A003A71DD /* 10 Gunplay.mp3 in Resources */,
+				C4C9FAF312F2745A003A71DD /* 11 Redemption In Dub.mp3 in Resources */,
+				C4C9FAF412F2745A003A71DD /* 12 Muertos Rojos (aka The Gunslinger.mp3 in Resources */,
+				C4C9FAF512F2745A003A71DD /* 13 The Outlaw's Return.mp3 in Resources */,
+				C4C9FAF612F2745A003A71DD /* 14 Exodus In America.mp3 in Resources */,
+				C4C9FAF712F2745A003A71DD /* 15 Already Dead.mp3 in Resources */,
+				C4C9FAF812F2745A003A71DD /* 16 Far Away.mp3 in Resources */,
+				C4C9FAF912F2745A003A71DD /* 17 Compass (Red Dead on Arrival Vers.mp3 in Resources */,
+				C4C9FAFA12F2745A003A71DD /* 18 Deadman's Gun.mp3 in Resources */,
+				C4C9FAFB12F2745A003A71DD /* 19 Bury Me Not On The Lone Prairie.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,11 @@
 #import "RootViewController.h"
 #import "MusicPlayer.h"
 
+// Private methods
+@interface RootViewController ()
+-(void)parseXML:(NSString*)source;
+@end
+
 @implementation RootViewController
 
 
@@ -23,22 +28,35 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 	
 	sharedMusicPlayer = [MusicPlayer sharedMusicPlayer];
-	[sharedMusicPlayer loadMusicWithKey:@"dove" soundFile:@"dove-loop.aif"];
-	[sharedMusicPlayer loadMusicWithKey:@"intro" soundFile:@"themeIntro.mp3"];
-	[sharedMusicPlayer playMusicWithKey:@"intro" timesToRepeat:0];
-	
 	
 	NSError *error = nil;
     NSString *content = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"playlist" ofType:@"xml"] encoding:NSUTF8StringEncoding error:&error];
-	xmlDocument = [[DDXMLDocument alloc] initWithXMLString:content options:0 error:&error];
 	
-	//*/
+	[self parseXML:content];
+	
+	/*/
 	NSArray *results = [xmlDocument nodesForXPath:@"/playlist/trackList/track[1]" error:&error];
 	NSLog(@"%@",results);
 	NSLog(@"%i",results.count);
 	//*/
 }
 //*/
+
+-(void)parseXML:(NSString*)source {
+	
+	NSError *error = nil;
+	
+	xmlDocument = [[DDXMLDocument alloc] initWithXMLString:source options:0 error:&error];
+	
+	NSArray *results = [xmlDocument nodesForXPath:@"//track" error:&error];
+	
+	for (DDXMLElement *track in results) {
+		NSString *name = [[track childAtIndex:0] stringValue];
+		NSString *location = [[track childAtIndex:2] stringValue];
+		NSLog(@"%@ : %@",name,location);
+		[sharedMusicPlayer loadMusicWithKey:name soundFile:location];
+	}
+}
 
 /*
 - (void)viewWillAppear:(BOOL)animated {
@@ -164,6 +182,15 @@
 	 [self.navigationController pushViewController:detailViewController animated:YES];
 	 [detailViewController release];
 	 */
+	
+	NSString *xpath = [NSString stringWithFormat:@"/playlist/trackList/track[%i]",(indexPath.row + 1)];
+	NSError *error = nil;
+	NSArray *results = [xmlDocument nodesForXPath:xpath error:&error];
+	DDXMLElement *book = [results objectAtIndex:0];
+	DDXMLNode *node = [book childAtIndex:0];
+	
+	[sharedMusicPlayer playMusicWithKey:[node stringValue] timesToRepeat:0];
+	
 }
 
 
