@@ -2,7 +2,7 @@
 //  RootViewController.m
 //  MusicPlayer
 //
-//  Created by Raúl Uranga on 1/17/11.
+//  Created by Raúl Uranga on 1/27/11.
 //  Copyright 2011 GrupoW. All rights reserved.
 //
 
@@ -27,8 +27,18 @@
 	[sharedMusicPlayer loadMusicWithKey:@"intro" soundFile:@"themeIntro.mp3"];
 	[sharedMusicPlayer playMusicWithKey:@"intro" timesToRepeat:0];
 	
+	
+	NSError *error = nil;
+    NSString *content = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"playlist" ofType:@"xml"] encoding:NSUTF8StringEncoding error:&error];
+	xmlDocument = [[DDXMLDocument alloc] initWithXMLString:content options:0 error:&error];
+	
+	//*/
+	NSArray *results = [xmlDocument nodesForXPath:@"/playlist/trackList/track[1]" error:&error];
+	NSLog(@"%@",results);
+	NSLog(@"%i",results.count);
+	//*/
 }
-/*/
+//*/
 
 /*
 - (void)viewWillAppear:(BOOL)animated {
@@ -71,7 +81,9 @@
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
+	NSError *error = nil;
+	NSArray *results = [xmlDocument nodesForXPath:@"//track" error:&error];
+    return results.count;
 }
 
 
@@ -85,8 +97,17 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     
+   	
+	//indexPath.row
+	NSString *xpath = [NSString stringWithFormat:@"/playlist/trackList/track[%i]",(indexPath.row + 1)];
+	NSError *error = nil;
+	NSArray *results = [xmlDocument nodesForXPath:xpath error:&error];
+	DDXMLElement *book = [results objectAtIndex:0];
+	DDXMLNode *node = [book childAtIndex:0];
+	
 	// Configure the cell.
-
+	cell.textLabel.text = [node stringValue];
+	
     return cell;
 }
 

@@ -15,10 +15,16 @@
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
-		C475BFF312E50C650080C0B0 /* MusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C475BFF112E50C650080C0B0 /* MusicPlayer.m */; };
-		C475BFF712E50C810080C0B0 /* dove-loop.aif in Resources */ = {isa = PBXBuildFile; fileRef = C475BFF512E50C810080C0B0 /* dove-loop.aif */; };
-		C475BFF812E50C810080C0B0 /* themeIntro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C475BFF612E50C810080C0B0 /* themeIntro.mp3 */; };
-		C475C00312E50CF00080C0B0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C475C00212E50CF00080C0B0 /* AVFoundation.framework */; };
+		C4C9FA1112F26590003A71DD /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C9FA0712F26590003A71DD /* DDXMLDocument.m */; };
+		C4C9FA1212F26590003A71DD /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C9FA0912F26590003A71DD /* DDXMLElement.m */; };
+		C4C9FA1312F26590003A71DD /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C9FA0B12F26590003A71DD /* DDXMLElementAdditions.m */; };
+		C4C9FA1412F26590003A71DD /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C9FA0D12F26590003A71DD /* DDXMLNode.m */; };
+		C4C9FA1512F26590003A71DD /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C9FA1012F26590003A71DD /* NSStringAdditions.m */; };
+		C4C9FA2112F2660B003A71DD /* dove-loop.aif in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FA1F12F2660A003A71DD /* dove-loop.aif */; };
+		C4C9FA2212F2660B003A71DD /* themeIntro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FA2012F2660B003A71DD /* themeIntro.mp3 */; };
+		C4C9FA2612F26637003A71DD /* MusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C9FA2412F26637003A71DD /* MusicPlayer.m */; };
+		C4C9FA2A12F26688003A71DD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C9FA2912F26688003A71DD /* AVFoundation.framework */; };
+		C4C9FA3012F266AE003A71DD /* playlist.xml in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FA2F12F266AE003A71DD /* playlist.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,12 +41,25 @@
 		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* MusicPlayer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MusicPlayer-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		C475BFF012E50C650080C0B0 /* MusicPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayer.h; sourceTree = "<group>"; };
-		C475BFF112E50C650080C0B0 /* MusicPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayer.m; sourceTree = "<group>"; };
-		C475BFF212E50C650080C0B0 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
-		C475BFF512E50C810080C0B0 /* dove-loop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dove-loop.aif"; sourceTree = "<group>"; };
-		C475BFF612E50C810080C0B0 /* themeIntro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = themeIntro.mp3; sourceTree = "<group>"; };
-		C475C00212E50CF00080C0B0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C4C9FA0512F26590003A71DD /* DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXML.h; sourceTree = "<group>"; };
+		C4C9FA0612F26590003A71DD /* DDXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLDocument.h; sourceTree = "<group>"; };
+		C4C9FA0712F26590003A71DD /* DDXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLDocument.m; sourceTree = "<group>"; };
+		C4C9FA0812F26590003A71DD /* DDXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElement.h; sourceTree = "<group>"; };
+		C4C9FA0912F26590003A71DD /* DDXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElement.m; sourceTree = "<group>"; };
+		C4C9FA0A12F26590003A71DD /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		C4C9FA0B12F26590003A71DD /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElementAdditions.m; sourceTree = "<group>"; };
+		C4C9FA0C12F26590003A71DD /* DDXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLNode.h; sourceTree = "<group>"; };
+		C4C9FA0D12F26590003A71DD /* DDXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLNode.m; sourceTree = "<group>"; };
+		C4C9FA0E12F26590003A71DD /* DDXMLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLPrivate.h; sourceTree = "<group>"; };
+		C4C9FA0F12F26590003A71DD /* NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringAdditions.h; sourceTree = "<group>"; };
+		C4C9FA1012F26590003A71DD /* NSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringAdditions.m; sourceTree = "<group>"; };
+		C4C9FA1F12F2660A003A71DD /* dove-loop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dove-loop.aif"; sourceTree = "<group>"; };
+		C4C9FA2012F2660B003A71DD /* themeIntro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = themeIntro.mp3; sourceTree = "<group>"; };
+		C4C9FA2312F26637003A71DD /* MusicPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayer.h; sourceTree = "<group>"; };
+		C4C9FA2412F26637003A71DD /* MusicPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayer.m; sourceTree = "<group>"; };
+		C4C9FA2512F26637003A71DD /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		C4C9FA2912F26688003A71DD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C4C9FA2F12F266AE003A71DD /* playlist.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = playlist.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +70,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
-				C475C00312E50CF00080C0B0 /* AVFoundation.framework in Frameworks */,
+				C4C9FA2A12F26688003A71DD /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,9 +80,9 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C475BFF012E50C650080C0B0 /* MusicPlayer.h */,
-				C475BFF112E50C650080C0B0 /* MusicPlayer.m */,
-				C475BFF212E50C650080C0B0 /* SynthesizeSingleton.h */,
+				C4C9FA2312F26637003A71DD /* MusicPlayer.h */,
+				C4C9FA2412F26637003A71DD /* MusicPlayer.m */,
+				C4C9FA2512F26637003A71DD /* SynthesizeSingleton.h */,
 				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
 				28C286E00D94DF7D0034E888 /* RootViewController.m */,
 				1D3623240D0F684500981E51 /* MusicPlayerAppDelegate.h */,
@@ -83,7 +102,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				C475BFF412E50C720080C0B0 /* Sounds */,
+				C4C9FA1E12F265DD003A71DD /* Sounds */,
+				C4C9FA0212F2657D003A71DD /* DDXML */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -105,6 +125,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C4C9FA2F12F266AE003A71DD /* playlist.xml */,
 				28F335F01007B36200424DE2 /* RootViewController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* MusicPlayer-Info.plist */,
@@ -115,19 +136,38 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C475C00212E50CF00080C0B0 /* AVFoundation.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				C4C9FA2912F26688003A71DD /* AVFoundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C475BFF412E50C720080C0B0 /* Sounds */ = {
+		C4C9FA0212F2657D003A71DD /* DDXML */ = {
 			isa = PBXGroup;
 			children = (
-				C475BFF512E50C810080C0B0 /* dove-loop.aif */,
-				C475BFF612E50C810080C0B0 /* themeIntro.mp3 */,
+				C4C9FA0512F26590003A71DD /* DDXML.h */,
+				C4C9FA0612F26590003A71DD /* DDXMLDocument.h */,
+				C4C9FA0712F26590003A71DD /* DDXMLDocument.m */,
+				C4C9FA0812F26590003A71DD /* DDXMLElement.h */,
+				C4C9FA0912F26590003A71DD /* DDXMLElement.m */,
+				C4C9FA0A12F26590003A71DD /* DDXMLElementAdditions.h */,
+				C4C9FA0B12F26590003A71DD /* DDXMLElementAdditions.m */,
+				C4C9FA0C12F26590003A71DD /* DDXMLNode.h */,
+				C4C9FA0D12F26590003A71DD /* DDXMLNode.m */,
+				C4C9FA0E12F26590003A71DD /* DDXMLPrivate.h */,
+				C4C9FA0F12F26590003A71DD /* NSStringAdditions.h */,
+				C4C9FA1012F26590003A71DD /* NSStringAdditions.m */,
+			);
+			name = DDXML;
+			sourceTree = "<group>";
+		};
+		C4C9FA1E12F265DD003A71DD /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				C4C9FA1F12F2660A003A71DD /* dove-loop.aif */,
+				C4C9FA2012F2660B003A71DD /* themeIntro.mp3 */,
 			);
 			name = Sounds;
 			sourceTree = "<group>";
@@ -184,8 +224,9 @@
 			files = (
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
-				C475BFF712E50C810080C0B0 /* dove-loop.aif in Resources */,
-				C475BFF812E50C810080C0B0 /* themeIntro.mp3 in Resources */,
+				C4C9FA2112F2660B003A71DD /* dove-loop.aif in Resources */,
+				C4C9FA2212F2660B003A71DD /* themeIntro.mp3 in Resources */,
+				C4C9FA3012F266AE003A71DD /* playlist.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,7 +240,12 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* MusicPlayerAppDelegate.m in Sources */,
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
-				C475BFF312E50C650080C0B0 /* MusicPlayer.m in Sources */,
+				C4C9FA1112F26590003A71DD /* DDXMLDocument.m in Sources */,
+				C4C9FA1212F26590003A71DD /* DDXMLElement.m in Sources */,
+				C4C9FA1312F26590003A71DD /* DDXMLElementAdditions.m in Sources */,
+				C4C9FA1412F26590003A71DD /* DDXMLNode.m in Sources */,
+				C4C9FA1512F26590003A71DD /* NSStringAdditions.m in Sources */,
+				C4C9FA2612F26637003A71DD /* MusicPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +287,8 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				OTHER_LDFLAGS = "-lxml2";
 				PREBINDING = NO;
 				SDKROOT = iphoneos4.1;
 			};
@@ -254,7 +302,9 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-lxml2";
 				PREBINDING = NO;
 				SDKROOT = iphoneos4.1;
 			};
