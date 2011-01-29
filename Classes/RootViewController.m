@@ -112,7 +112,7 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
     }
     
    	
@@ -121,10 +121,11 @@
 	NSError *error = nil;
 	NSArray *results = [xmlDocument nodesForXPath:xpath error:&error];
 	DDXMLElement *book = [results objectAtIndex:0];
-	DDXMLNode *node = [book childAtIndex:0];
+	//DDXMLNode *node = [book childAtIndex:0];
 	
 	// Configure the cell.
-	cell.textLabel.text = [node stringValue];
+	cell.textLabel.text = [[book childAtIndex:0] stringValue];
+	cell.detailTextLabel.text = [[book childAtIndex:1] stringValue];
 	
     return cell;
 }
