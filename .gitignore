@@ -1,0 +1,38 @@
+# xcode noise
+*.mode1v3
+*.pbxuser
+*.perspective 
+*.perspectivev3
+*.pyc 
+*~.nib/
+build/*
+
+# Textmate - if you build your xcode projects with it
+*.tm_build_errors
+
+# old skool
+.svn
+
+# osx noise
+.DS_Store
+profile
+
+01 Born Unto Trouble.mp3
+02 The Shootist.mp3
+03 Dead End Alley.mp3
+04 Horseplay.mp3
+05 Luz Y Sombra.mp3
+06 El Club De Los Cuerpos.mp3
+07 Estancia.mp3
+08 (Theme From) Red Dead Redemption.mp3
+09 Triggernometry.mp3
+10 Gunplay.mp3
+11 Redemption In Dub.mp3
+12 Muertos Rojos (aka The Gunslinger.mp3
+13 The Outlaw's Return.mp3
+14 Exodus In America.mp3
+15 Already Dead.mp3
+16 Far Away.mp3
+17 Compass (Red Dead on Arrival Vers.mp3
+18 Deadman's Gun.mp3
+19 Bury Me Not On The Lone Prairie.mp3

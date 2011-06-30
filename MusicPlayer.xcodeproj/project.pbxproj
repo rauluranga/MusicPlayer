@@ -42,8 +42,6 @@
 		C4C9FAF912F2745A003A71DD /* 17 Compass (Red Dead on Arrival Vers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FAE612F27459003A71DD /* 17 Compass (Red Dead on Arrival Vers.mp3 */; };
 		C4C9FAFA12F2745A003A71DD /* 18 Deadman's Gun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FAE712F2745A003A71DD /* 18 Deadman's Gun.mp3 */; };
 		C4C9FAFB12F2745A003A71DD /* 19 Bury Me Not On The Lone Prairie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4C9FAE812F2745A003A71DD /* 19 Bury Me Not On The Lone Prairie.mp3 */; };
-		C4DFCD4012F39CBB00BB6363 /* MusicDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DFCD3E12F39CBB00BB6363 /* MusicDetailViewController.m */; };
-		C4DFCD4112F39CBB00BB6363 /* MusicDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4DFCD3F12F39CBB00BB6363 /* MusicDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,9 +94,6 @@
 		C4C9FAE612F27459003A71DD /* 17 Compass (Red Dead on Arrival Vers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "17 Compass (Red Dead on Arrival Vers.mp3"; sourceTree = "<group>"; };
 		C4C9FAE712F2745A003A71DD /* 18 Deadman's Gun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "18 Deadman's Gun.mp3"; sourceTree = "<group>"; };
 		C4C9FAE812F2745A003A71DD /* 19 Bury Me Not On The Lone Prairie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "19 Bury Me Not On The Lone Prairie.mp3"; sourceTree = "<group>"; };
-		C4DFCD3D12F39CBB00BB6363 /* MusicDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDetailViewController.h; sourceTree = "<group>"; };
-		C4DFCD3E12F39CBB00BB6363 /* MusicDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDetailViewController.m; sourceTree = "<group>"; };
-		C4DFCD3F12F39CBB00BB6363 /* MusicDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MusicDetailViewController.xib; path = Classes/MusicDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,8 +121,6 @@
 				28C286E00D94DF7D0034E888 /* RootViewController.m */,
 				1D3623240D0F684500981E51 /* MusicPlayerAppDelegate.h */,
 				1D3623250D0F684500981E51 /* MusicPlayerAppDelegate.m */,
-				C4DFCD3D12F39CBB00BB6363 /* MusicDetailViewController.h */,
-				C4DFCD3E12F39CBB00BB6363 /* MusicDetailViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -166,7 +159,6 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C4DFCD3F12F39CBB00BB6363 /* MusicDetailViewController.xib */,
 				C4C9FA2F12F266AE003A71DD /* playlist.xml */,
 				28F335F01007B36200424DE2 /* RootViewController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
@@ -303,7 +295,6 @@
 				C4C9FAF912F2745A003A71DD /* 17 Compass (Red Dead on Arrival Vers.mp3 in Resources */,
 				C4C9FAFA12F2745A003A71DD /* 18 Deadman's Gun.mp3 in Resources */,
 				C4C9FAFB12F2745A003A71DD /* 19 Bury Me Not On The Lone Prairie.mp3 in Resources */,
-				C4DFCD4112F39CBB00BB6363 /* MusicDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +314,6 @@
 				C4C9FA1412F26590003A71DD /* DDXMLNode.m in Sources */,
 				C4C9FA1512F26590003A71DD /* NSStringAdditions.m in Sources */,
 				C4C9FA2612F26637003A71DD /* MusicPlayer.m in Sources */,
-				C4DFCD4012F39CBB00BB6363 /* MusicDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
