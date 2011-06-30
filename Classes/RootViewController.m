@@ -120,12 +120,12 @@
 	NSString *xpath = [NSString stringWithFormat:@"/playlist/trackList/track[%i]",(indexPath.row + 1)];
 	NSError *error = nil;
 	NSArray *results = [xmlDocument nodesForXPath:xpath error:&error];
-	DDXMLElement *book = [results objectAtIndex:0];
+	DDXMLElement *track = [results objectAtIndex:0];
 	//DDXMLNode *node = [book childAtIndex:0];
 	
 	// Configure the cell.
-	cell.textLabel.text = [[book childAtIndex:0] stringValue];
-	cell.detailTextLabel.text = [[book childAtIndex:1] stringValue];
+	cell.textLabel.text = [[track childAtIndex:0] stringValue];
+	cell.detailTextLabel.text = [[track childAtIndex:1] stringValue];
 	
     return cell;
 }
@@ -187,10 +187,10 @@
 	NSString *xpath = [NSString stringWithFormat:@"/playlist/trackList/track[%i]",(indexPath.row + 1)];
 	NSError *error = nil;
 	NSArray *results = [xmlDocument nodesForXPath:xpath error:&error];
-	DDXMLElement *book = [results objectAtIndex:0];
-	DDXMLNode *node = [book childAtIndex:0];
+	DDXMLElement *track = [results objectAtIndex:0];
+	DDXMLNode *title = [track childAtIndex:0];
 	
-	[sharedMusicPlayer playMusicWithKey:[node stringValue] timesToRepeat:0];
+	[sharedMusicPlayer playMusicWithKey:[title stringValue] timesToRepeat:0];
 	
 }
 
